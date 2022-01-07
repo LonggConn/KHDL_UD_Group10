@@ -1,0 +1,19 @@
+Hướng dẫn chạy đồ án:
+Truy cập vào link collab của nhóm qua đường link https://colab.research.google.com/drive/1ZS1gZstXMA_pvxGaGRLu6cSZBi61fF0s?usp=sharing#scrollTo=-NJbrYSW1-Z7
+
+Nhóm đã chạy sẵn 1 lần. Quá trình training khá dài tầm 2 - 3h. Để chạy lại thì tiến hành theo các bước sau:
+1. Chạy runtime -> run all
+2. Mount drive vào collab để lấy dữ liệu
+*Cây thư mục của nhóm đang sử dụng
+/content/drive/MyDrive/KHDLUD
+└── README.md
+└── src
+    └── input
+    |   └── train.csv
+    |	└── test.csv
+    |	└── sample_submission.csv
+    └── output
+
+3. Chờ cho chương trình chạy xong. Trên collab là khoảng 2 - 3h để ra kết quả cuối cùng
+
+Sau đó đối với kết quả đã được chạy ra thì có thể submit lên cuộc thi ở kaggle https://www.kaggle.com/c/santander-customer-transaction-prediction# để xem điểm như thế nào
